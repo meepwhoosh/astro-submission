@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Poppins:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap'); 
+
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    padding: 1.4rem 7%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/cyberpunk-rain-city-pixel-moewalls-com.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    background-color: rgba(41, 40, 40, 0.74);
+    border-radius: 20px;
+}
+
+.container h1 {
+    color: white;
+}
+
+.container p {
+    text-align: center;
+    color: white;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.input input {
+    padding: 12px 12px 12px 12px;
+    border-radius: 4px;
+}
+
+.container button {
+    margin-top: 10px;
+    height: 48px;
+    border-radius: 4px;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.container a {
+    color: white;
+}
